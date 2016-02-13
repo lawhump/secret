@@ -1,0 +1,84 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oxygen', sans-serif;
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background: url('//il4.picdn.net/shutterstock/videos/2837014/thumb/5.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+#twitter-widget-0 {
+  max-width: 520px !important;
+  width: 100% !important;
+}
+
+.twitter {
+  background-color: rgba(255,255,255,.3);
+  border-radius: 4px;
+  bottom: 0;
+  left: 0;
+  margin: 0 0 5vmin 5vmin;
+  padding: 18px;
+  position: absolute;
+}
+
+@media all and (max-width: 666px) {
+  .twitter {
+    margin: 20px auto 0 auto;
+    position: static;
+    width: 90%;
+  }
+}
+
+.overlay {
+  background-color: #eee;
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100vw;
+  z-index: 99;
+
+  h1 {
+    margin-top: 35vh;
+  }
+
+  img {
+    margin-top: 4rem;
+    max-width: 80rem;
+  }
+}
